@@ -11,6 +11,10 @@
         {% include 'includes/_messages.html' %}
             {% block body %} {% endblock %}
         </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="//cdn.ckeditor.com/4.12.1/standard/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace('editor')
+        </script>
     </body>
 </html>
